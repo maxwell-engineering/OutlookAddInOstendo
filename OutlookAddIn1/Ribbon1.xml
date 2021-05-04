@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<contextMenus>
+		<contextMenu idMso="ContextMenuAttachments">
+			<button id="MyButton1" label="My Button" insertBeforeMso="HyperlinkInsert" onAction="GetButtonID" />
+		</contextMenu>
+		<contextMenu idMso="ContextMenuMailItem">
+			<button id="MyButton2" label="My Button" insertBeforeMso="HyperlinkInsert" onAction="GetButtonID" />
+		</contextMenu>
+	</contextMenus>
+</customUI>
